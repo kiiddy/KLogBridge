@@ -1,14 +1,14 @@
-package com.logfusion.config;
+package io.klogbridge.config;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-import java.util.stream.Collectors;
 
 public class PropertiesConfigSource implements ConfigSource {
 
     private static final String JVM = "jvm";
 
+    //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
     @Override
     public int getOrder() {
         return 0;

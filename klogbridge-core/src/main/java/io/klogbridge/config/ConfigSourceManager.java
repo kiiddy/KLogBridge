@@ -1,4 +1,4 @@
-package com.logfusion.config;
+package io.klogbridge.config;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

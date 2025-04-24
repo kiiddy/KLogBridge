@@ -1,4 +1,4 @@
-package com.logfusion.config;
+package io.klogbridge.config;
 
 public interface ConfigSourceLoader {
 

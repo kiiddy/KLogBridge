@@ -1,4 +1,4 @@
-package com.logfusion.config;
+package io.klogbridge.config;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -17,7 +17,7 @@ public class YamlConfigSource implements ConfigSource {
 
     @Override
     public Map<String, Object> load() {
-        try(InputStream inputStream = YamlConfigSource.class.getClassLoader().getResourceAsStream("logFusion.yaml")){
+        try(InputStream inputStream = YamlConfigSource.class.getClassLoader().getResourceAsStream("klog-config.yaml")){
             Yaml yaml = new Yaml();
             return yaml.load(inputStream);
         }catch (Exception e){
